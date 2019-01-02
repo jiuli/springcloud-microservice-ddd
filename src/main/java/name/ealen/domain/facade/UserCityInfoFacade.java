@@ -19,5 +19,7 @@ public class UserCityInfoFacade {
 
         return buildCityInfo(response);
     }
-
+    private CityInfo buildCityInfo(CityReponse reponse) {
+        return CityInfo;
+    }
 }
